@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+- The technology for coding and dynamic contents are React
+- For static content with fixed layout we will use Markdown

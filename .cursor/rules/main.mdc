@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+When developing the website or creating content for the website consider the followings:
+
+- The website code is available under `src` folder in the root of the repository
+- This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
