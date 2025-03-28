@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Yaama Tech',
-  tagline: 'Everything starts with a plan.',
+  tagline: 'Welcome to Tomorrow\'s Technology',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -78,17 +78,12 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          to: '/remote-staffing',
-          label: 'Remote Staffing',
-          position: 'left',
-        },
-        {
-          to: '/cloud-solutions',
-          label: 'Cloud Solutions',
-          position: 'left',
-        },
+        { to: '/remote-staffing', label: 'Remote Staffing', position: 'left' },
+        { to: '/cloud-solutions', label: 'Cloud Solutions', position: 'left' },
+        { to: '/work-with-us', label: 'Work With Us', position: 'left' },
+        { to: '/about-us', label: 'About Us', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/contact-us', label: 'Contact Us', position: 'right' },
       ],
     },
     footer: {
