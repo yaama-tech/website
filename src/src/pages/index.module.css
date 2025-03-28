@@ -5,9 +5,14 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   position: relative;
   overflow: hidden;
+  background-image: url('/img/pattern-01.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 800px;
+  margin: 0 -140px;
 }
 
 @media screen and (max-width: 996px) {
