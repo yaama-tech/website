@@ -79,17 +79,16 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/remote-staffing',
+          label: 'Remote Staffing',
           position: 'left',
-          label: 'Tutorial',
+        },
+        {
+          to: '/cloud-solutions',
+          label: 'Cloud Solutions',
+          position: 'left',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
