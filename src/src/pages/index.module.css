@@ -12,12 +12,14 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: 800px;
-  margin: 0 -140px;
+  margin: 0 -140px 0px 0px;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+    background-size: 600px;
+    margin: 0 -240px 0px 0px;
   }
 }
 
