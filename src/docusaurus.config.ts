@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Yaama Tech',
-  tagline: 'Welcome to Tomorrow\'s Technology',
+  tagline: 'welcome to tomorrow\'s technology',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

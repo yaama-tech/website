@@ -1,48 +1,57 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
+  ctaText: string;
+  ctaLink: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Cloud Solutions',
+    Svg: require('@site/static/img/yaama-cloud-solutions.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We provide cutting-edge cloud solutions to help businesses scale
+        and modernize their infrastructure efficiently and securely.
       </>
     ),
+    ctaText: 'Learn More',
+    ctaLink: '/cloud-solutions',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Remote Staffing',
+    Svg: require('@site/static/img/yaama-remote-staffing.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Connect with skilled remote professionals who can help your business
+        grow while maintaining flexibility and cost-effectiveness.
       </>
     ),
+    ctaText: 'Find Talent',
+    ctaLink: '/remote-staffing',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Work With Us',
+    Svg: require('@site/static/img/yaama-work-for-us.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Join our team of talented professionals and be part of exciting
+        projects while working with cutting-edge technologies.
       </>
     ),
+    ctaText: 'View Opportunities',
+    ctaLink: '/work-with-us',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description, ctaText, ctaLink }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -51,6 +60,9 @@ function Feature({title, Svg, description}: FeatureItem) {
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+        <Link to={ctaLink} className={styles.ctaButton}>
+          {ctaText}
+        </Link>
       </div>
     </div>
   );
