@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+- When generating readable contents, take into account the branding guidelines in [branding.md](mdc:resources/branding.md) and make sure the content are aligned with the branding
