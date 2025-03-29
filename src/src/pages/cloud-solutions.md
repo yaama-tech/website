@@ -4,7 +4,7 @@ title: Cloud Solutions
 
 # Cloud Services and Solutions
 
-Yaama Tech's new Cloud Services division empowers your business with the benefits of cloud computing without the usual complexity or confusion. "Yaama" means "welcome" in the Gamilaraay language, and true to our name, we welcome small businesses and startups into an inclusive, supportive cloud experience. 
+Yaama Tech's Cloud Services division empowers your business with the benefits of cloud computing without the usual complexity or confusion. "Yaama" means "welcome" in the Gamilaraay language, and true to our name, we welcome small businesses and startups into an inclusive, supportive cloud experience. 
 
 Our mission: connect you with scalable, secure technology solutions in a way that's straightforward and supportive. We combine deep technical expertise with an approachable style – making advanced cloud technology accessible, not overwhelming. 
 
