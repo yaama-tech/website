@@ -1,48 +1,57 @@
 import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
+  ctaText: string;
+  ctaLink: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Lorem Ipsum Dolor',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Cloud Solutions',
+    Svg: require('@site/static/img/yaama-cloud-solutions.svg').default,
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-        eiusmod tempor incididunt ut labore et dolore magna.
+        We provide cutting-edge cloud solutions to help businesses scale
+        and modernize their infrastructure efficiently and securely.
       </>
     ),
+    ctaText: 'Learn More',
+    ctaLink: '/cloud-solutions',
   },
   {
-    title: 'Consectetur Adipiscing',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Remote Staffing',
+    Svg: require('@site/static/img/yaama-remote-staffing.svg').default,
     description: (
       <>
-        Ut enim ad minim veniam, quis nostrud exercitation. Duis aute
-        irure dolor in reprehenderit in voluptate.
+        Connect with skilled remote professionals who can help your business
+        grow while maintaining flexibility and cost-effectiveness.
       </>
     ),
+    ctaText: 'Find Talent',
+    ctaLink: '/remote-staffing',
   },
   {
-    title: 'Sed Do Eiusmod',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Work With Us',
+    Svg: require('@site/static/img/yaama-work-for-us.svg').default,
     description: (
       <>
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est laborum.
+        Join our team of talented professionals and be part of exciting
+        projects while working with cutting-edge technologies.
       </>
     ),
+    ctaText: 'View Opportunities',
+    ctaLink: '/work-with-us',
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, description, ctaText, ctaLink }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -51,6 +60,9 @@ function Feature({ title, Svg, description }: FeatureItem) {
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+        <Link to={ctaLink} className={styles.ctaButton}>
+          {ctaText}
+        </Link>
       </div>
     </div>
   );

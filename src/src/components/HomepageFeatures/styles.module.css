@@ -9,3 +9,21 @@
   height: 200px;
   width: 200px;
 }
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.ctaButton:hover {
+  background-color: var(--ifm-color-primary-darker);
+  text-decoration: none;
+  color: var(--ifm-color-white);
+}
