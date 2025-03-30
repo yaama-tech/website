@@ -1,0 +1,49 @@
+.contactContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contentWrapper {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactImage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.formWrapper {
+    flex: 1;
+}
+
+/* Hide image on smaller screens */
+@media (max-width: 768px) {
+    .imageWrapper {
+        display: none;
+    }
+
+    .formWrapper {
+        flex: 1;
+        width: 100%;
+    }
+
+    .contentWrapper {
+        gap: 0;
+    }
+}
