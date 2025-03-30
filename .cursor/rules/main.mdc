@@ -14,3 +14,4 @@ When developing the website or creating content for the website consider the fol
 - Pages should be created under `/src/src/pages`
 - Images should be placed on the `/src/static/imag`
 - Functions should be created on the `/src/functions`
+- Whenever the prompt says commit the changes It means "@Commit (Diff of Working State) with propper concise message Reflecting the changes"

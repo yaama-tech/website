@@ -117,4 +117,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+### Feature Branch Deployments
+
+When you push a feature branch, it will be automatically deployed to a preview environment. The deployment will be available at:
+
+```
+{branch-name}.yaama-website-v1.pages.dev
+```
+
+For example, if your branch is named `feature/contact-us`, after 3-5 minutes the deployment will be available at:
+
+```
+feature-contact-us.yaama-website-v1.pages.dev
+```
+
 
