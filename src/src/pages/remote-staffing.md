@@ -75,11 +75,11 @@ We believe in complete transparency in our relationships with both clients and c
 Let us help you build your dream team with top-tier remote professionals who can drive your business forward.
 
 <div class="text-center margin-top--xl">
-  <a href="/contact" class="button button--primary button--lg">
+  <a href="/contact-us" class="button button--primary button--lg">
     Get Started Today
   </a>
 </div>
 
 <div class="text-center margin-top--md text-small">
-  Join the hundreds of businesses that have transformed their operations with Yaama Tech's remote staffing solutions.
+  Join the growing number of businesses that have successfully transformed their operations with Yaama Tech's remote staffing solutions.
 </div> 
