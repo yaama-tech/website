@@ -42,7 +42,7 @@ export async function onRequestPost(context) {
 
         return new Response(
             JSON.stringify({
-                message: "Message sent successfully",
+                message: "Message sent successfully!",
                 timestamp: timestamp
             }), {
             status: 200,
