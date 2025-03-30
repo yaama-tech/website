@@ -6,4 +6,11 @@ alwaysApply: true
 When developing the website or creating content for the website consider the followings:
 
 - The website code is available under `src` folder in the root of the repository
-- This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+- This website is built using [Docusaurus](mdc:https:/docusaurus.io), a modern static website generator.
+- Block pose should be created under `/src/blog`
+- Documents should be created under `/src/doc`
+- Components should be created under `/src/src/components`
+- CSS files should be created under `/src/src/css`
+- Pages should be created under `/src/src/pages`
+- Images should be placed on the `/src/static/imag`
+- Functions should be created on the `/src/functions`
