@@ -4,7 +4,7 @@
 // The database is a Cloudflare D1 database and can be accessed by env.DB
 // The database has a table called `contacts`
 // The table has the following columns:
-// - id: the id of the message
+// - id: the id of the message (GUID)
 // - name: the name of the sender
 // - email: the email of the sender
 // - message: the message of the sender
@@ -32,17 +32,21 @@ export async function onRequestPost(context) {
             );
         }
 
+        // Generate a GUID for the id
+        const id = crypto.randomUUID();
+
         // Insert data into database
         const timestamp = new Date().toISOString();
         const statement = await env.DB.prepare(
-            "INSERT INTO contacts (name, email, message, date) VALUES (?, ?, ?, ?)"
-        ).bind(name.trim(), email.trim(), message.trim(), timestamp);
+            "INSERT INTO contacts (id, name, email, message, date) VALUES (?, ?, ?, ?, ?)"
+        ).bind(id, name.trim(), email.trim(), message.trim(), timestamp);
 
         await statement.run();
 
         return new Response(
             JSON.stringify({
                 message: "Message sent successfully!",
+                id: id,
                 timestamp: timestamp
             }), {
             status: 200,
