@@ -28,19 +28,3 @@ At Yaama Tech, we're building a truly global network of exceptional talent unite
 ## Our Clients
 
 We partner with top-performing clients and innovative startups across the globe, providing our team members with opportunities to work on diverse, challenging projects that push the boundaries of technology.
-
-## Current Opportunities
-
-We're always looking for talented individuals to join our growing team. Whether you're a seasoned professional or an emerging talent, we have opportunities that match your expertise and career goals.
-
-<div class="text-center margin-top--xl">
-  <a href="https://www.linkedin.com/company/yaamatech" target="_blank" rel="noopener noreferrer" class="button button--primary button--lg">
-    View Open Positions on LinkedIn
-  </a>
-</div>
-
-<div class="text-center margin-top--md">
-  <p class="text-small">
-    Follow us on LinkedIn to stay updated with our latest opportunities and company news.
-  </p>
-</div> 
