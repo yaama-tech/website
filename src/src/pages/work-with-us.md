@@ -6,7 +6,7 @@ title: Work with Us
 
 ## Join Our Global Tech Community
 
-At Yaama Tech, we're building a diverse, global community of exceptional talent. Our team spans across continents, bringing together professionals from India, the Philippines, the Middle East, Turkey, South Africa, the United States, Sweden, and beyond. This global perspective enriches our work culture and enables us to deliver innovative solutions around the clock.
+At Yaama Tech, we're building a truly global network of exceptional talent united by a shared passion for innovation and impact. Our team works across time zones, and cultures, bringing together a wide range of perspectives and experiences. This diversity isn't just something we're proud of, it's central to how we think, solve problems, and deliver cutting-edge solutions. By working collaboratively across borders, we ensure our clients benefit from around-the-clock support, fresh thinking, and a dynamic approach to technology.
 
 ## Why Choose Yaama Tech?
 
