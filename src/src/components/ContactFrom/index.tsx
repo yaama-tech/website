@@ -35,7 +35,7 @@ export default function ContactForm({ onSubmissionSuccess }: ContactFormProps) {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch('https://feature-contact-us.yaama-website-v1.pages.dev/api/contact', {
+            const response = await fetch('/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
