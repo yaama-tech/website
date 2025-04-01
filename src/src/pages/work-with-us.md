@@ -8,6 +8,8 @@ title: Work with Us
 
 At Yaama Tech, we're building a truly global network of exceptional talent united by a shared passion for innovation and impact. Our team works across time zones, and cultures, bringing together a wide range of perspectives and experiences. This diversity isn't just something we're proud of, it's central to how we think, solve problems, and deliver cutting-edge solutions. By working collaboratively across borders, we ensure our clients benefit from around-the-clock support, fresh thinking, and a dynamic approach to technology.
 
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/vnLSmVDLLIk?si=qkSbNN2iiKfj3SKn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Why Choose Yaama Tech?
 
 ### 🌏 Global Opportunities
