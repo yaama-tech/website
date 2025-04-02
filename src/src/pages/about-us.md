@@ -3,7 +3,7 @@ title: About Us
 ---
 
 # About Us
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zo_Nb8kc2Io?si=gpFqQRu-gtVzGGTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 At Yaama Tech, we're more than just a technology company – we're your partner in digital transformation. Our name, derived from the Gamilaraay language meaning "hello" or "welcome," reflects our commitment to creating an inclusive and innovative technology environment that bridges cultures and communities.
 
 ## Our Approach
