@@ -46,7 +46,7 @@ Half of all remote workers say their biggest challenges are communication and co
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Asynchronous Communication | [Slack](https://slack.com/intl/en-au), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams/collaboration), [Notion](https://www.notion.com/) | Reduces delays, improves documentation          |
 | Manage Time Zones          | [World Time Buddy](https://www.worldtimebuddy.com/), Google Calendar                                                                                       | Simplifies meeting scheduling, lowers conflicts |
-| Project Management         | [Trello](https://trello.com/), [Asana](https://asana.com/), [Monday.com](https://monday.com/)                                                              | Boosts accountability, tracks progress          |
+| Project Management         | [Trello](https://trello.com/), [Asana](https://asana.com/), [Monday.com](https://monday.com/), [ClickUp](https://clickup.com/)                             | Boosts accountability, tracks progress          |
 
 > "We should never forget how powerful remote work is. Where you can work affects your life, where you live, and the possibilities for yourself and your family." - Chloe Roux, Director of Global Community, Deel [\[3\]](https://www.deel.com/blog/managing-time-zones-in-remote-team/)
 
