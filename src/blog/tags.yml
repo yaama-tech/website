@@ -2,3 +2,27 @@ technology:
   label: Technology
   permalink: /technology
   description: Technology tag description
+remote:
+  label: Remote
+  permalink: /remote
+  description: Remote tag description
+work-from-home:
+  label: Work from Home
+  permalink: /work-from-home
+  description: Work from Home tag description
+remote-work:
+  label: Remote Work
+  permalink: /remote-work
+  description: Remote Work tag description
+cost-effective:
+  label: Cost Effective
+  permalink: /cost-effective
+  description: Cost Effective tag description
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Productivity tag description
+team-management:
+  label: Team Management
+  permalink: /team-management
+  description: Team Management tag description
