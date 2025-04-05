@@ -26,3 +26,7 @@ team-management:
   label: Team Management
   permalink: /team-management
   description: Team Management tag description
+talent-acquisition:
+  label: Talent Acquisition
+  permalink: /talent-acquisition
+  description: Talent Acquisition tag description
