@@ -12,7 +12,7 @@ yaama:
   name: Yaama Tech
   title: Publication
   url: https://github.com/yaama-tech
-  image_url: https://github.com/yaama-tech.png
+  image_url: /img/logo.png
   page: true
   socials:
     x: yaamatech
