@@ -60,14 +60,11 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-      } satisfies Preset.Options,
-      '@docusaurus/preset-classic',
-      {
         gtag: {
           trackingID: 'G-MFGM898WXT',
           anonymizeIP: false,
         },
-      },
+      } satisfies Preset.Options
     ],
   ],
 
