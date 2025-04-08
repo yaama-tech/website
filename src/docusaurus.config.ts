@@ -64,7 +64,7 @@ const config: Config = {
           trackingID: 'G-MFGM898WXT',
           anonymizeIP: false,
         },
-      } satisfies Preset.Options
+      } satisfies Preset.Options,
     ],
   ],
 
