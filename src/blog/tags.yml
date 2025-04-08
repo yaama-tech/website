@@ -30,3 +30,31 @@ talent-acquisition:
   label: Talent Acquisition
   permalink: /talent-acquisition
   description: Talent Acquisition tag description
+sme:
+  label: SME
+  permalink: /sme
+  description: SME tag description
+cloud-systems:
+  label: Cloud Systems
+  permalink: /cloud-systems
+  description: Cloud Systems tag description
+ai:
+  label: AI
+  permalink: /ai
+  description: AI tag description
+data-security:
+  label: Data Security
+  permalink: /data-security
+  description: Data Security tag description
+iot:
+  label: IoT
+  permalink: /iot
+  description: IoT tag description
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Blockchain tag description
+energy:
+  label: Energy
+  permalink: /energy
+  description: Energy tag description
