@@ -58,3 +58,11 @@ energy:
   label: Energy
   permalink: /energy
   description: Energy tag description
+collaboration:
+  label: Collaboration
+  permalink: /collaboration
+  description: Collaboration tag description
+communication:
+  label: Communication
+  permalink: /communication
+  description: Communication tag description
