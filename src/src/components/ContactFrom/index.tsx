@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 interface ContactFormData {
     name: string;
     email: string;
+    category: string;
     message: string;
 }
 
@@ -15,13 +16,14 @@ export default function ContactForm({ onSubmissionSuccess }: ContactFormProps) {
     const [formData, setFormData] = useState<ContactFormData>({
         name: '',
         email: '',
+        category: "",
         message: '',
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [isSubmitted, setIsSubmitted] = useState(false);
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
         setFormData(prev => ({
             ...prev,
@@ -95,6 +97,26 @@ export default function ContactForm({ onSubmissionSuccess }: ContactFormProps) {
                     required
                     className={styles.input}
                 />
+            </div>
+
+            <div className={styles.formGroup}>
+              <label htmlFor="category">Category *</label>
+              <select
+                id="category"
+                name="category"
+                value={formData.category}
+                onChange={handleChange}
+                required
+                className={styles.input + " " + styles.select}
+              >
+                <option value="">Select a category</option>
+                <option value="cloudSolutions">Cloud Solutions</option>
+                <option value="remoteStaffing">Remote Staffing</option>
+                <option value="jobApplications">Job Applications</option>
+                <option value="sales">Sales</option>
+                <option value="technicalSupport">Technical Support</option>
+                <option value="other">Other</option>
+              </select>
             </div>
 
             <div className={styles.formGroup}>
