@@ -24,6 +24,10 @@
     transition: border-color 0.2s ease;
 }
 
+.select {
+  cursor: pointer;
+}
+
 .textarea {
     min-height: 150px;
     resize: vertical;
