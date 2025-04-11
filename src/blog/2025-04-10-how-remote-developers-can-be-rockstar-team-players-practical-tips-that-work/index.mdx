@@ -9,9 +9,37 @@ tags: [remote-work, productivity, collaboration, communication]
 
 import CTABanner from '@site/src/components/CTABanner';
 
+export const AudioPlayerComponent = () => (
+  <div style={{ 
+    marginBottom: '2rem',
+    backgroundColor: 'var(--ifm-color-emphasis-100)',
+    padding: '1rem',
+    borderRadius: '8px',
+  }}>
+    <div style={{ marginBottom: '0.5rem', fontWeight: 'bold' }}>
+      Listen to this article:
+    </div>
+    <audio
+      controls
+      style={{
+        width: '100%',
+        height: '40px',
+      }}
+    >
+      <source 
+        src="https://assets.yaama.tech/podcasts/2025-04-10-how-remote-developers-can-be-rockstar-team-players-practical-tips-that-work.MP3" 
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+);
+
 # How Remote Developers Can Be Rockstar Team Players: Practical Tips That Work
 
 ![Diverse Group of Remote Developers](./a-diverse-group-of-remote-developers-collaborating.jpg)
+
+<AudioPlayerComponent />
 
 **Want to thrive as a remote developer? Here's how:**
 
