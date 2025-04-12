@@ -1,6 +1,6 @@
 # Yaama Tech Website
 
-This repository contains the source code for the Yamatek website. The website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator optimized for technical and documentation websites.
+This repository contains the source code for the Yaama Tech website. The website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator optimized for technical and documentation websites.
 
 ## Project Structure
 
@@ -16,16 +16,19 @@ The source code is available under the `src` directory, which contains:
 ## Getting Started
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Start the development server:
+
 ```bash
 npm start
 ```
 
 3. Build for production:
+
 ```bash
 npm run build
 ```
@@ -35,20 +38,22 @@ npm run build
 To create a new blog post:
 
 1. First, ensure you're added as an author in `src/blog/authors.yml`:
+
    ```yaml
    your_name:
      name: Your Full Name
      title: Your Role
      url: https://github.com/yourusername
      image_url: https://github.com/yourusername.png
-     page: true  # Optional: set to true if you want an author page
+     page: true # Optional: set to true if you want an author page
      socials:
        github: yourusername
-       x: yourhandle  # Optional
-       linkedin: yourprofile  # Optional
+       x: yourhandle # Optional
+       linkedin: yourprofile # Optional
    ```
 
 2. If you're using new tags, define them in `src/blog/tags.yml`:
+
    ```yaml
    your_tag:
      label: Your Tag Label
@@ -59,10 +64,12 @@ To create a new blog post:
 3. Create your blog post in one of two ways:
 
    a. For posts without images:
+
    - Create a file named `YYYY-MM-DD-title.md` in the `blog` directory
    - Example: `2024-03-20-introducing-yaama.md`
 
    b. For posts with images:
+
    - Create a new directory in `blog` named `YYYY-MM-DD-title`
    - Place an `index.md` file inside this directory
    - Put all related images in the same directory
@@ -76,19 +83,21 @@ To create a new blog post:
      ```
 
 4. Add the required front matter at the top of your file:
+
    ```md
    ---
    title: Your Blog Post Title
    description: A brief description of your post
    slug: your-custom-url-slug
-   authors: [your_name]  # Must match your ID in authors.yml
-   tags: [your_tag]  # Must be defined in tags.yml
+   authors: [your_name] # Must match your ID in authors.yml
+   tags: [your_tag] # Must be defined in tags.yml
    ---
    ```
 
 5. Write your blog content in Markdown/MDX format below the front matter.
 
 6. To create a post summary, add the `<!-- truncate -->` marker after your introduction:
+
    ```md
    This is my introduction that will appear in the preview.
 
@@ -130,5 +139,3 @@ For example, if your branch is named `feature/contact-us`, after 3-5 minutes the
 ```
 feature-contact-us.yaama-website-v1.pages.dev
 ```
-
-
