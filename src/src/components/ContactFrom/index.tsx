@@ -16,7 +16,7 @@ export default function ContactForm({ onSubmissionSuccess }: ContactFormProps) {
     const [formData, setFormData] = useState<ContactFormData>({
         name: '',
         email: '',
-        category: "",
+        category: '',
         message: '',
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -110,11 +110,11 @@ export default function ContactForm({ onSubmissionSuccess }: ContactFormProps) {
                 className={styles.input + " " + styles.select}
               >
                 <option value="">Select a category</option>
-                <option value="cloudSolutions">Cloud Solutions</option>
-                <option value="remoteStaffing">Remote Staffing</option>
-                <option value="jobApplications">Job Applications</option>
+                <option value="cloud-solutions">Cloud Solutions</option>
+                <option value="remote-staffing">Remote Staffing</option>
+                <option value="job-applications">Job Applications</option>
                 <option value="sales">Sales</option>
-                <option value="technicalSupport">Technical Support</option>
+                <option value="technical-support">Technical Support</option>
                 <option value="other">Other</option>
               </select>
             </div>
