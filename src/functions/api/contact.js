@@ -8,6 +8,7 @@
 // - name: the name of the sender
 // - email: the email of the sender
 // - message: the message of the sender
+// - category: the category of the message
 // - date: the date and time the message was created
 export async function onRequestGet(context) {
     return new Response("This api is for sending messages to the contact form!")
