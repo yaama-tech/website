@@ -8,6 +8,7 @@
 // - name: the name of the sender
 // - email: the email of the sender
 // - message: the message of the sender
+// - category: the category of the message
 // - date: the date and time the message was created
 export async function onRequestGet(context) {
     return new Response("This api is for sending messages to the contact form!")
@@ -16,13 +17,13 @@ export async function onRequestGet(context) {
 export async function onRequestPost(context) {
     try {
         const { request, env } = context;
-        const { name, email, message } = await request.json();
+        const { name, email, message, category } = await request.json();
 
         // Validate required fields
-        if (!name || !email || !message || name.trim() === "" || email.trim() === "" || message.trim() === "") {
+        if (!name || !email || !message || !category || name.trim() === "" || email.trim() === "" || message.trim() === "" || category.trim() === "") {
             return new Response(
                 JSON.stringify({
-                    error: "All fields (name, email, message) are required"
+                    error: "All fields (name, email, message, category) are required"
                 }), {
                 status: 400,
                 headers: {
@@ -38,8 +39,8 @@ export async function onRequestPost(context) {
         // Insert data into database
         const timestamp = new Date().toISOString();
         const statement = await env.DB.prepare(
-            "INSERT INTO contacts (id, name, email, message, date) VALUES (?, ?, ?, ?, ?)"
-        ).bind(id, name.trim(), email.trim(), message.trim(), timestamp);
+            "INSERT INTO contacts (id, name, email, message, category, date) VALUES (?, ?, ?, ?, ?, ?)"
+        ).bind(id, name.trim(), email.trim(), message.trim(), category.trim(), timestamp);
 
         await statement.run();
 
