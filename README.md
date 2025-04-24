@@ -35,6 +35,62 @@ npm run build
 
 ## Creating Blog Posts
 
+### Using Cursor AI
+
+In order to create a blog post using CursorMail I paste the following template into the chat area and fill in the blanks. 
+
+```
+Create a new blog post placeholder, with following details using @blog-posts.mdc rules: 
+Author:
+
+
+Slug:
+
+
+Date:
+
+
+Title:
+
+
+Description:
+
+
+Keywords:
+
+
+Tags:
+
+```
+
+Example:
+
+```
+Create a new blog post placeholder, with following details using @blog-posts.mdc rules: 
+Author:
+yaama
+
+Slug:
+remote-but-ready-how-to-impress-in-your-next-offshore-interview
+
+Date:
+24 April 2025
+
+Title:
+Remote But Ready: How to Impress in Your Next Offshore Interview
+
+Description:
+Prepare for offshore interviews by mastering tech tools, understanding cultural nuances, and showcasing your remote work skills for success.
+
+Keywords:
+offshore interview, remote work, cultural understanding, technical readiness, interview preparation
+
+Tags:
+offshore-interview, remote-work, interview
+```
+
+### Manual
+
 To create a new blog post:
 
 1. First, ensure you're added as an author in `src/blog/authors.yml`:
