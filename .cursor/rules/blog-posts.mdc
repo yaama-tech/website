@@ -8,6 +8,9 @@ Instruction for creating a new blog post:
 - Make sure you have the following information otherwise ask the user to provide that information to you: Date, Slug
 - Create a new folder under `/src/blog` called `{date}-{slug}` for example `2025-04-10-how-remote-developers-can-be-rockstar-team-players-practical-tips-that-work`
 - Create a file under that folder called `index.mdx`
+- No need to fill in the information that you don't have.
+- You are just creating a placeholder and user will add the content. Do not generate the content 
+- If user has provided tags then check the tag file at [tags.yml](mdc:src/blog/tags.yml) and add any of the tags that is missing to the tag file following the same pattern as the other tags. 
 - Add the following front matter to the file. 
 
 ---
