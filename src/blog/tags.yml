@@ -70,3 +70,15 @@ offshore-interview:
   label: Offshore Interview
   permalink: /offshore-interview
   description: Offshore Interview tag description
+offshore-developers:
+  label: Offshore Developers
+  permalink: /offshore-developers
+  description: Offshore Developers tag description
+hiring-tips:
+  label: Hiring Tips
+  permalink: /hiring-tips
+  description: Hiring Tips tag description
+interview:
+  label: Interview
+  permalink: /interview
+  description: Interview tag description
