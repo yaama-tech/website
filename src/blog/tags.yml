@@ -82,3 +82,15 @@ interview:
   label: Interview
   permalink: /interview
   description: Interview tag description
+offshore-recruitment:
+  label: Offshore Recruitment
+  permalink: /offshore-recruitment
+  description: Offshore Recruitment tag description
+remote-teams:
+  label: Remote Teams
+  permalink: /remote-teams
+  description: Remote Teams tag description
+recruitment:
+  label: Recruitment
+  permalink: /recruitment
+  description: Recruitment tag description
