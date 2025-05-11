@@ -25,3 +25,23 @@ authors: [yaama]
 tags: [tags]
 ---
 
+- Add following content
+
+```
+import CTABanner from "@site/src/components/CTABanner";
+import AudioPlayer from "@site/src/components/AudioPlayer";
+
+# {title}
+
+![{title}](./{slug}.png)
+
+<AudioPlayer
+  src="https://assets.yaama.tech/podcasts/{slug}.MP3"
+  title="Listen to the deep dive conversation:"
+/>
+
+Add the abstract here
+
+<!-- truncate -->
+```
+

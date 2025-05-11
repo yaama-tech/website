@@ -94,3 +94,15 @@ recruitment:
   label: Recruitment
   permalink: /recruitment
   description: Recruitment tag description
+mentorship:
+  label: Mentorship
+  permalink: /mentorship
+  description: Mentorship tag description
+professional-development:
+  label: Professional Development
+  permalink: /professional-development
+  description: Professional Development tag description
+growth:
+  label: Growth
+  permalink: /growth
+  description: Growth tag description
