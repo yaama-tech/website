@@ -106,3 +106,27 @@ growth:
   label: Growth
   permalink: /growth
   description: Growth tag description
+offshore-jobs:
+  label: Offshore Jobs
+  permalink: /offshore-jobs
+  description: Offshore Jobs tag description
+australian:
+  label: Australian
+  permalink: /australian
+  description: Australian tag description
+digital-marketing:
+  label: Digital Marketing
+  permalink: /digital-marketing
+  description: Digital Marketing tag description
+finance:
+  label: Finance
+  permalink: /finance
+  description: Finance tag description
+customer-support:
+  label: Customer Support
+  permalink: /customer-support
+  description: Customer Support tag description
+outsourcing:
+  label: Outsourcing
+  permalink: /outsourcing
+  description: Outsourcing tag description
