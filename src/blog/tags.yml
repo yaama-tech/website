@@ -163,9 +163,9 @@ engineering-efficiency:
   permalink: /engineering-efficiency
   description: Engineering Efficiency tag description
 llms:
-  label: LLMs
-  permalink: /llms
-  description: LLMs tag description
+  label: LLM
+  permalink: /llm
+  description: LLM tag description
 productivity-hacks:
   label: Productivity Hacks
   permalink: /productivity-hacks
