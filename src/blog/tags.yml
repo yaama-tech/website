@@ -130,3 +130,43 @@ outsourcing:
   label: Outsourcing
   permalink: /outsourcing
   description: Outsourcing tag description
+ai-model:
+  label: AI Model
+  permalink: /ai-model
+  description: AI Model tag description
+developer-productivity:
+  label: Developer Productivity
+  permalink: /developer-productivity
+  description: Developer Productivity tag description
+context-switching:
+  label: Context Switching
+  permalink: /context-switching
+  description: Context Switching tag description
+future-of-work:
+  label: Future Of Work
+  permalink: /future-of-work
+  description: Future Of Work tag description
+ai-integration:
+  label: AI Integration
+  permalink: /ai-integration
+  description: AI Integration tag description
+devops:
+  label: DevOps
+  permalink: /devops
+  description: DevOps tag description
+tech-waste:
+  label: Tech Waste
+  permalink: /tech-waste
+  description: Tech Waste tag description
+engineering-efficiency:
+  label: Engineering Efficiency
+  permalink: /engineering-efficiency
+  description: Engineering Efficiency tag description
+llms:
+  label: LLM
+  permalink: /llm
+  description: LLM tag description
+productivity-hacks:
+  label: Productivity Hacks
+  permalink: /productivity-hacks
+  description: Productivity Hacks tag description
