@@ -141,13 +141,7 @@ const config: Config = {
       type: 'text/plain',
       'data-type': 'application/javascript',
       'data-name': 'google-analytics',
-    },
-    {
-      src: '/js/google-analytics.js',
-      type: 'text/plain',
-      'data-type': 'application/javascript',
-      'data-name': 'google-analytics',
-    },
+    }
   ],
 };
 

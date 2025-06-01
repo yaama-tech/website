@@ -16,26 +16,18 @@ const klaroConfig = {
     default: false,
     mustConsent: false,
     acceptAll: true,
-    hideDeclineAll: false,
-    hideLearnMore: false,
+    hideDeclineAll: true,
+    hideLearnMore: true,
     noticeAsModal: false,
     lang: 'en',
+    translations: {
+        en: {
+            consentNotice: {
+                description: 'We use cookies for {purposes} to enhance the user experience.',
+            }
+        }
+    },
     services: [
-        {
-            name: 'Matomo',
-            default: false,
-            title: 'Matomo',
-            purposes: ['analytics'],
-            cookies: [
-                [/^_pk_.*$/, '/', 'blog.bitexpert.de'],
-            ],
-            callback: function (consent, service) {
-                // @TODO: Process consent here, e.g. load 3rd party JS
-            },
-            required: false,
-            optOut: false,
-            onlyOnce: true
-        },
         {
             name: 'google-analytics',
             default: false,
@@ -58,7 +50,7 @@ const klaroConfig = {
                     gtag('config', 'G-MFGM898WXT');
                 }
             },
-            required: false,
+            required: true,
             optOut: false,
             onlyOnce: true
         }
