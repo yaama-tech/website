@@ -24,6 +24,8 @@ declare global {
         enableTracking: boolean;
         klaro: any;
         klaroConfig: any;
+        dataLayer: any[];
+        gtag: Function;
     }
 }
 
@@ -40,12 +42,16 @@ export default function Layout(props: Props): ReactNode {
     useKeyboardNavigation();
 
     useEffect(() => {
+        // Initialize dataLayer early
+        window.dataLayer = window.dataLayer || [];
+
         const _paq = window._paq = window._paq || [];
         if (window.enableTracking === true) {
             _paq.push(['setCustomUrl', location.pathname]);
             _paq.push(['setDocumentTitle', document.title]);
             _paq.push(['trackPageView']);
         }
+
         import('klaro').then(Klaro => {
             // we assign the Klaro module to the window, so that we can access it in JS
             window.klaro = Klaro;
