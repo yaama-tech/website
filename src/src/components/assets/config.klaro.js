@@ -35,6 +35,32 @@ const klaroConfig = {
             required: false,
             optOut: false,
             onlyOnce: true
+        },
+        {
+            name: 'google-analytics',
+            default: false,
+            title: 'Google Analytics',
+            purposes: ['analytics'],
+            cookies: [
+                // Google Analytics cookies
+                [/^_ga.*$/, '/', 'yaama.tech'],
+                [/^_gid.*$/, '/', 'yaama.tech'],
+                ['_gat', '/', 'yaama.tech'],
+                [/^__utm.*$/, '/', 'yaama.tech'],
+            ],
+            callback: function (consent, service) {
+                // This callback is called when consent is given or revoked
+                if (consent === true) {
+                    // Google Analytics will be loaded by the script tag
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'G-MFGM898WXT');
+                }
+            },
+            required: false,
+            optOut: false,
+            onlyOnce: true
         }
     ]
 };

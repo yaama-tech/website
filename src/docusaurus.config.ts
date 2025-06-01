@@ -61,10 +61,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {
-          trackingID: 'G-MFGM898WXT',
-          anonymizeIP: false,
-        },
+        // gtag: {
+        //   trackingID: 'G-MFGM898WXT',
+        //   anonymizeIP: false,
+        // },
       } satisfies Preset.Options,
     ],
   ],
@@ -132,6 +132,23 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  scripts: [
+    // Google Analytics with Klaro consent management
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-MFGM898WXT',
+      async: true,
+      type: 'text/plain',
+      'data-type': 'application/javascript',
+      'data-name': 'google-analytics',
+    },
+    {
+      src: '/js/google-analytics.js',
+      type: 'text/plain',
+      'data-type': 'application/javascript',
+      'data-name': 'google-analytics',
+    },
+  ],
 };
 
 export default config;
