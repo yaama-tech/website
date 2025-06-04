@@ -170,3 +170,11 @@ productivity-hacks:
   label: Productivity Hacks
   permalink: /productivity-hacks
   description: Productivity Hacks tag description
+onboarding:
+  label: Onboarding
+  permalink: /onboarding
+  description: Onboarding tag description
+automation:
+  label: Automation
+  permalink: /automation
+  description: Automation tag description
