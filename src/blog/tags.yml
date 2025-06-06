@@ -178,3 +178,19 @@ automation:
   label: Automation
   permalink: /automation
   description: Automation tag description
+cursor-ai:
+  label: Cursor AI
+  permalink: /cursor-ai
+  description: Cursor AI tag description
+cursor-code-editor:
+  label: Cursor Code Editor
+  permalink: /cursor-code-editor
+  description: Cursor Code Editor tag description
+cursor-usage-best-practices:
+  label: Cursor Usage Best Practices
+  permalink: /cursor-usage-best-practices
+  description: Cursor Usage Best Practices tag description
+ai-coding-assistant:
+  label: AI Coding Assistant
+  permalink: /ai-coding-assistant
+  description: AI Coding Assistant tag description
