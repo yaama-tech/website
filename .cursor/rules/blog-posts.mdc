@@ -6,13 +6,36 @@ alwaysApply: false
 Instruction for creating a new blog post:
 
 - Make sure you have the following information otherwise ask the user to provide that information to you: Date, Slug
+- Ask for the blog content.
+- Identify the opening part of the blog to be used as {excerpt} excluding the title
+- The rest of the blog excluding the title will be used as {body}
 - Create a new folder under `/src/blog` called `{date}-{slug}` for example `2025-04-10-how-remote-developers-can-be-rockstar-team-players-practical-tips-that-work`
 - Create a file under that folder called `index.mdx`
 - No need to fill in the information that you don't have.
 - You are just creating a placeholder and user will add the content. Do not generate the content 
 - If user has provided tags then check the tag file at [tags.yml](mdc:src/blog/tags.yml) and add any of the tags that is missing to the tag file following the same pattern as the other tags. 
-- Add the following front matter to the file. 
+- Populate the file using the template below.
+- Review the content, and if there are any FAQs, replace it using the FAQ component. For example:
+```
+<FAQ question="Question?">
+Answer
+</FAQ>
+```
+- Use CTA banner component to place 3 call-to-action components with proper messaging that matches the context of the blog: 
+  - First one right after truncate tag `<!-- truncate -->` 
+  - another one somewhere in the middle 
+  - and last one towards the end of the article
+  - Here is an example of using CTA banner components. 
+  ```
+  <CTABanner
+  title="Ready to Transform Your Remote Onboarding?"
+  subtitle="Partner with experts to create a scalable, engaging onboarding process that drives retention and productivity."
+  buttonText="Talk to Remote Team Experts"
+/>
+  ```
 
+
+Template:
 ---
 slug: {Slug}
 title: "TITLE"
@@ -30,18 +53,21 @@ tags: [tags]
 ```
 import CTABanner from "@site/src/components/CTABanner";
 import AudioPlayer from "@site/src/components/AudioPlayer";
+import FAQ from "@site/src/components/FAQ";
 
 # {title}
 
-![{title}](./{slug}.png)
+![{title}](mdc:{slug}.png)
 
 <AudioPlayer
   src="https://assets.yaama.tech/podcasts/{slug}.MP3"
   title="Listen to the deep dive conversation:"
 />
 
-Add the abstract here
+{excerpt}
 
 <!-- truncate -->
+
+{body}
 ```
 

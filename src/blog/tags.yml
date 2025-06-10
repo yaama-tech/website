@@ -178,3 +178,19 @@ automation:
   label: Automation
   permalink: /automation
   description: Automation tag description
+remote-hiring:
+  label: Remote Hiring
+  permalink: /remote-hiring
+  description: Remote Hiring tag description
+tech-talent:
+  label: Tech Talent
+  permalink: /tech-talent
+  description: Tech Talent tag description
+startups:
+  label: Startups
+  permalink: /startups
+  description: Startups tag description
+australia:
+  label: Australia
+  permalink: /australia
+  description: Australia tag description
