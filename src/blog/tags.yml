@@ -194,3 +194,11 @@ australia:
   label: Australia
   permalink: /australia
   description: Australia tag description
+remote-interview:
+  label: Remote Interview
+  permalink: /remote-interview
+  description: Remote Interview tag description
+time-zones:
+  label: Time Zones
+  permalink: /time-zones
+  description: Time Zones tag description
