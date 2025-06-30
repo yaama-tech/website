@@ -202,3 +202,7 @@ time-zones:
   label: Time Zones
   permalink: /time-zones
   description: Time Zones tag description
+global-hiring:
+  label: Global Hiring
+  permalink: /global-hiring
+  description: Global Hiring tag description
